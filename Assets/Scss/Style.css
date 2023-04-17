@@ -1,0 +1,367 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header .NavBar {
+  background-color: #37517e;
+}
+header .NavBar ul li a {
+  color: white;
+}
+header .NavBar ul li a:hover {
+  color: #47b2e4;
+}
+header .NavBar ul li a i {
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+main .Hero {
+  background-color: #37517e;
+}
+main .Hero .ImageAnime img {
+  width: 100%;
+  height: 420px;
+  animation-name: infiniteupdown;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transition: all 0.2s;
+}
+main .Hero .TextArea {
+  display: flex;
+  align-items: center;
+}
+main .Hero .TextArea .Title h2 {
+  color: white;
+}
+main .Hero .TextArea .Title p {
+  color: rgba(255, 255, 255, 0.6);
+}
+main .Hero .TextArea .Button button {
+  font-size: 25px;
+  padding: 5px 35px;
+  border-radius: 21px 67px;
+  background: #47b2e4;
+  color: white;
+  border: none;
+}
+main .Filtr {
+  margin-top: 40px;
+}
+main .Filtr .row {
+  width: 100%;
+  justify-content: center;
+}
+main .Filtr .Title {
+  color: #37517e;
+}
+main .Filtr .card {
+  width: 600px;
+  padding: 10px 25px;
+  border: none;
+}
+main .Filtr .card form {
+  display: flex;
+  align-items: center;
+}
+main .Filtr .card form #DayTime {
+  width: 175px;
+  padding: 7px 20px;
+  border: 1px solid #24dc89;
+}
+main .Filtr .card form select {
+  width: 175px;
+  padding: 9px 20px;
+  border: 1px solid #24dc89;
+}
+main .Filtr .card form .Button {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+main .Filtr .card form .Button button {
+  width: 135px;
+  height: 41px;
+  margin-top: 23.5px;
+  background-color: rgb(36, 220, 137);
+  border: 1px solid #24dc89;
+  color: white;
+}
+main .Carusel {
+  margin-top: 70px;
+}
+main .About {
+  margin-top: 50px;
+}
+main .About .Context {
+  margin-top: 50px;
+}
+main .About .Context button {
+  border-color: #47b2e4;
+  color: #47b2e4;
+}
+main .About .Context button:hover {
+  background-color: #47b2e4;
+  color: white;
+}
+main .About .Context ul li {
+  list-style: none;
+}
+main .About .Context ul li i {
+  color: #47b2e4;
+}
+main .Services {
+  margin-top: 40px;
+  background-color: #f3f5fa;
+}
+main .Services .TitleSec {
+  margin-top: 20px;
+}
+main .Services .ServText {
+  margin-top: 30px;
+  text-align: center;
+}
+main .Services .ServCard .card {
+  padding: 50px 30px;
+  margin: 50px 0px 45px;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 0px;
+  transition: all ease-in-out 0.4s;
+}
+main .Services .ServCard .card:hover {
+  transform: translateY(-10px);
+}
+main .Services .ServCard .card:hover h2 {
+  color: #47b2e4;
+  transition: all ease-in-out 0.4s;
+}
+main .Services .ServCard .card i {
+  font-size: 30px;
+  color: #47b2e4;
+}
+main .Services .ServCard .card h2 {
+  padding-top: 10px;
+  color: #37517e;
+}
+main .ProgressBar {
+  margin-top: 80px;
+}
+main .ProgressBar .Images img {
+  width: 100%;
+  height: 100%;
+}
+main .ProgressBar .TitleSec {
+  display: block;
+}
+main .ProgressBar .TitleSec p {
+  margin-top: 20px;
+  font-size: 16px;
+}
+main .ProgressBar .TitleSec h3 {
+  font-size: 32px;
+}
+main .ProgressBar .Bar .progress .progress-bar {
+  background-color: #37517e;
+}
+main .ProgressBar .Bar .XXX {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+main .Contact {
+  margin-top: 40px;
+  background-color: #f3f5fa;
+}
+main .Contact .TitleSec {
+  padding-top: 20px;
+}
+main .Contact .ServText {
+  margin-top: 30px;
+  text-align: center;
+}
+main .Contact .About .location, main .Contact .About .mail, main .Contact .About .call {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+main .Contact .About .location h4, main .Contact .About .mail h4, main .Contact .About .call h4 {
+  color: #37517e;
+  font-size: 22px;
+  margin-left: 10px;
+  padding: 0 0 0 60px;
+  margin-bottom: 5px;
+  color: #37517e;
+}
+main .Contact .About .location i, main .Contact .About .mail i, main .Contact .About .call i {
+  font-size: 20px;
+  color: #47b2e4;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #e7f5fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+main .Contact .About .location p, main .Contact .About .mail p, main .Contact .About .call p {
+  padding: 0 0 10px 80px;
+  position: absolute;
+  margin-top: 25px;
+  font-size: 14px;
+  color: #6182ba;
+}
+main .Contact .card {
+  border-top: 3px solid #47b2e4;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 50px;
+  border-bottom: 3px solid #47b2e4;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  border-radius: 0;
+  height: 610px;
+}
+main .Contact .Sending {
+  margin-top: 50px;
+}
+main .Contact .Sending form textarea {
+  width: 100%;
+  max-height: 230px;
+}
+main .Contact .Sending form .FormText {
+  margin-top: 30px;
+}
+main .Contact .Sending .Btn {
+  margin-top: 35px;
+  text-align: center;
+}
+main .Contact .Sending .Btn button {
+  background-color: #47b2e4;
+  color: white;
+  border: none;
+  outline: #37517e;
+  border-radius: 50px;
+  padding: 12px 34px;
+  margin-bottom: 30px;
+}
+main .TitleSec {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+main .TitleSec h1, main .TitleSec h3 {
+  color: #37517e;
+}
+main .Toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .Toggle div {
+  border: 1px solid #37517e;
+  width: 50px;
+}
+main .Toggle .Fix {
+  border: 2px solid #47b2e4;
+}
+
+footer .FooterView {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+footer .FooterView .Ftext h3 {
+  color: #37517e;
+}
+footer .FooterView .Ftext .text {
+  margin-top: 10px;
+}
+footer .FooterView .Ftext .text p {
+  font-size: 14px;
+  color: #5e5e5e;
+}
+footer .FooterView .FtextUl h4 {
+  padding-bottom: 12px;
+  color: #37517e;
+  font-size: 16px;
+  font-weight: bold;
+}
+footer .FooterView .FtextUl ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+footer .FooterView .FtextUl ul li {
+  margin-top: 5px;
+}
+footer .FooterView .FtextUl ul li i {
+  color: #47b2e4;
+  font-size: 14px;
+}
+footer .FooterView .FtextUl ul li a {
+  text-decoration: none;
+  color: #777777;
+  font-size: 14px;
+  margin-left: 10px;
+}
+footer .FooterView .FNetWorks h4 {
+  padding-bottom: 12px;
+  color: #37517e;
+  font-size: 16px;
+  font-weight: bold;
+}
+footer .FooterView .FNetWorks p {
+  color: #444444;
+  font-size: 14px;
+}
+footer .FooterView .FNetWorks .icons a {
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-block;
+  background: #47b2e4;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+footer .FooterView .FNetWorks .icons a i {
+  font-size: 15px;
+}
+footer .FooterView .FNetWorks .icons a:hover {
+  background: #209dd8;
+  color: #fff;
+  text-decoration: none;
+}
+
+.My {
+  background-color: #37517e;
+}
+.My .about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.My .about p {
+  color: white;
+}
+
+@keyframes infiniteupdown {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}/*# sourceMappingURL=Style.css.map */
