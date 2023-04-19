@@ -418,6 +418,10 @@ footer {
                         color: #777777;
                         font-size: 14px;
                         margin-left: 10px;
+                        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+                        &:hover{
+                            color: #47b2e4;
+                        }
                     }
                 }
             }

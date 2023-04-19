@@ -181,12 +181,16 @@ main .Contact .ServText {
   margin-top: 30px;
   text-align: center;
 }
-main .Contact .About .location, main .Contact .About .mail, main .Contact .About .call {
+main .Contact .About .location,
+main .Contact .About .mail,
+main .Contact .About .call {
   display: flex;
   margin-top: 30px;
   margin-bottom: 30px;
 }
-main .Contact .About .location h4, main .Contact .About .mail h4, main .Contact .About .call h4 {
+main .Contact .About .location h4,
+main .Contact .About .mail h4,
+main .Contact .About .call h4 {
   color: #37517e;
   font-size: 22px;
   margin-left: 10px;
@@ -194,7 +198,9 @@ main .Contact .About .location h4, main .Contact .About .mail h4, main .Contact 
   margin-bottom: 5px;
   color: #37517e;
 }
-main .Contact .About .location i, main .Contact .About .mail i, main .Contact .About .call i {
+main .Contact .About .location i,
+main .Contact .About .mail i,
+main .Contact .About .call i {
   font-size: 20px;
   color: #47b2e4;
   float: left;
@@ -207,7 +213,9 @@ main .Contact .About .location i, main .Contact .About .mail i, main .Contact .A
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
 }
-main .Contact .About .location p, main .Contact .About .mail p, main .Contact .About .call p {
+main .Contact .About .location p,
+main .Contact .About .mail p,
+main .Contact .About .call p {
   padding: 0 0 10px 80px;
   position: absolute;
   margin-top: 25px;
@@ -253,7 +261,8 @@ main .TitleSec {
   justify-content: center;
   margin-top: 20px;
 }
-main .TitleSec h1, main .TitleSec h3 {
+main .TitleSec h1,
+main .TitleSec h3 {
   color: #37517e;
 }
 main .Toggle {
@@ -306,6 +315,10 @@ footer .FooterView .FtextUl ul li a {
   color: #777777;
   font-size: 14px;
   margin-left: 10px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+footer .FooterView .FtextUl ul li a:hover {
+  color: #47b2e4;
 }
 footer .FooterView .FNetWorks h4 {
   padding-bottom: 12px;
